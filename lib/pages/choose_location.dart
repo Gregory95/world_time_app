@@ -50,11 +50,6 @@ class _ChooseLocationState extends State<ChooseLocation> {
         location: 'Jakarta',
         flag: 'indonesia.png',
         isDayTime: false),
-    WorldTime(
-        endpoint: 'Asia/Cyprus',
-        location: 'Cyprus',
-        flag: 'cyprus.png',
-        isDayTime: false),
   ];
 
   void updateTime(index) async {
